@@ -39,7 +39,7 @@ export const SearchPage = () => {
               value={searchText}
               onChange={onInputChange}
             />
-            <button className="btn btn-outline-primary mt-1">Search</button>
+            <button className="btn btn-outline-primary mt-2">Search</button>
           </form>
         </div>
 
@@ -48,10 +48,12 @@ export const SearchPage = () => {
           <hr />
 
           {query === "" ? (
-            <div className="alert alert-primary">Search a hero</div>
+            <div className="alert alert-primary animate__animated animate__fadeIn">
+              Search a hero
+            </div>
           ) : (
             heroes.length === 0 && (
-              <div className="alert alert-danger">
+              <div className="alert alert-danger animate__animated animate__fadeIn">
                 No hero with <b>{query}</b>
               </div>
             )

@@ -21,7 +21,7 @@ Desarrollada con **React**, **React Router** y **Bootstrap**.
 
 1. Clona el repositorio:
 
-git clone https://github.com/tu-usuario/heroes-app.git
+git clone https://github.com/lukebro82/Heroes-App
 
 2. Instala las dependencias:
 
